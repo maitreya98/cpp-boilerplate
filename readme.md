@@ -1,6 +1,6 @@
 # C++ Boilerplate
 [![Build Status](https://app.travis-ci.com/maitreya98/cpp-boilerplate.svg?branch=master)](https://app.travis-ci.com/maitreya98/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/OpenSourceHelpCommunity/OpenSourceHelpCommunity.github.io/badge.svg?branch=develop)](https://coveralls.io/github/OpenSourceHelpCommunity/OpenSourceHelpCommunity.github.io?branch=develop)---
+[![Coverage Status](https://coveralls.io/repos/github/maitreya98/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/maitreya98/cpp-boilerplate?branch=master)
 
 ## Overview
 
