@@ -9,6 +9,10 @@ Simple starter C++ project with:
 - cmake
 - googletest
 
+## Authors
+- Maitreya Kulkarni : Driver Github: maitreya98
+- Markose Jacob : Navigator Github: markosej11 
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate
