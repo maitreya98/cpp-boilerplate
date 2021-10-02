@@ -18,7 +18,7 @@
 */
 double ttd::PID::Compute() {
     double num;
-    num = 15;
+    num = 1;
     return num;
 }
 
