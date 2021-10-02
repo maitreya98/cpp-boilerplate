@@ -18,7 +18,7 @@
 * @return  returns 
 */
 double ttd::PID::compute(double actual_velocity , double target_velocity){
-    std::cout<<"compute called"<<std::endl;
+    std::cout<<" : ";
     return 1;
 }
 
