@@ -9,15 +9,13 @@
 
 // Header files
 #include <iostream>
-// #include "pid.cpp"
 #include "../include/pid.hpp"
 
 /**
 * @brief Main compute function for PID Controller
 */
 
-int main()
-{
+int main() {
     // Constructor Initializing vale Kp, Ki, Kd.
     ttd::PID pid(0.2, 0.2, 0.2, 15, 5);
     // Main compute function

@@ -16,8 +16,7 @@
 * @params nil
 * @return  returns 
 */
-double ttd::PID::Compute()
-{
+double ttd::PID::Compute() {
     double num;
     num = 1;
     return num;
@@ -27,16 +26,14 @@ double ttd::PID::Compute()
 * @breif Function to access value of kd
 * @return value of kd
 */
-double ttd::PID::get_kd()
-{
+double ttd::PID::get_kd() {
     return kd_;
 
 /**
 * @breif Function to access value of ki
 * @return value of ki
 */}
-double ttd::PID::get_ki()
-{
+double ttd::PID::get_ki() {
     return ki_;
 }
 
@@ -45,7 +42,6 @@ double ttd::PID::get_ki()
 * @return value of kp
 */
 
-double ttd::PID::get_kp()
-{
+double ttd::PID::get_kp() {
     return kp_;
 }
