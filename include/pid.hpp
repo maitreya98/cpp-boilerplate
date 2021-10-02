@@ -16,19 +16,18 @@ namespace ttd
     class PID
     {
     public:
-        double target_velocity, actual_velocity;
+        double target_velocity_, actual_velocity_;
         //compute method here
-        double compute(double actual_velocity, double target_velocity);
-        double getKp();
-        double getKi();
-        double getKd();
-        PID(double _kp = 1, double _ki = 1, double _kd = 1, double _target_velocity = 10, double _actual_velocity = 5) : kp{_kp}, ki{_ki}, kd{_kd}, target_velocity{_target_velocity}, actual_velocity{_actual_velocity} { std::cout << "Constructor called" << std::endl; };
+        double Compute();
+        double get_kp();
+        double get_ki();
+        double get_kd();
+        PID(double kp = 1, double ki = 1, double kd = 1, double target_velocity = 10, double actual_velocity = 5) : kp_{kp}, ki_{ki}, kd_{kd}, target_velocity_{target_velocity}, actual_velocity_{actual_velocity} { std::cout << "Constructor called" << std::endl; };
         ~PID() { std::cout << "Destructor called" << std::endl; };
 
     private:
-        double kp, ki, kd;
+        double kp_, ki_, kd_;
     };
 }
-
 
 #endif // INCLUDE_pid_hpp_

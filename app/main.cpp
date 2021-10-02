@@ -14,21 +14,13 @@
 
 /**
 * @brief Main compute function for PID Controller
-*/ 
+*/
 
 int main()
-{   
+{
     // Constructor Initializing vale Kp, Ki, Kd.
     ttd::PID pid(0.2, 0.2, 0.2, 15, 5);
-
-
-    // double tv,av;    
-    // std::cout<<"Enter target velocity :"<<std::endl;
-    // std::cin>>pid.target_velocity;
-    // std::cout<<"Enter actual velocity :"<<std::endl;
-    // std::cin>>pid.actual_velocity;
-
-    // Main compute function 
-    std::cout<<"Computed velocity is "<<pid.compute(pid.actual_velocity,pid.target_velocity)<<std::endl;
+    // Main compute function
+    std::cout << "Computed velocity is " << pid.Compute() << std::endl;
     return 0;
 }

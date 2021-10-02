@@ -13,28 +13,31 @@
 
 /**
 * @brief This is the function which computes the pid calculations
-* @params actual_velocity Recent velocity reading
-* @params target_velocity Expected velocity reading
+* @params nil
 * @return  returns 
 */
-double ttd::PID::compute(double actual_velocity , double target_velocity){
-    std::cout<<" : ";
-    return 1;
+double ttd::PID::Compute()
+{
+    double num;
+    num = 1;
+    return num;
 }
 
 /**
 * @breif Function to access value of kd
 * @return value of kd
 */
-double ttd::PID::getKd(){
-    return kd;
+double ttd::PID::get_kd()
+{
+    return kd_;
 
 /**
 * @breif Function to access value of ki
 * @return value of ki
 */}
-double ttd::PID::getKi(){
-    return ki;
+double ttd::PID::get_ki()
+{
+    return ki_;
 }
 
 /**
@@ -42,7 +45,7 @@ double ttd::PID::getKi(){
 * @return value of kp
 */
 
-double ttd::PID::getKp(){
-    return kp;
+double ttd::PID::get_kp()
+{
+    return kp_;
 }
-
