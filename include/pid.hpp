@@ -7,8 +7,10 @@
 */
 #ifndef INCLUDE_pid_hpp_
 #define INCLUDE_pid_hpp_
-#include <iostream>
+
 #pragma once
+#include <iostream>
+
 namespace ttd{
 class PID{
     public:
@@ -18,12 +20,13 @@ class PID{
         double getKp();
         double getKi();
         double getKd();
-        PID(double _kp=1 , double _ki=1, double _kd=1): kp{_kp} ,ki{_ki},kd{_kd} {std::cout<<"constructor"<<std::endl;};
+        PID(double _kp=1 , double _ki=1, double _kd=1, double _target_velocity=10, double _actual_velocity=5): kp{_kp} ,ki{_ki},kd{_kd}, target_velocity{_target_velocity}, actual_velocity{_actual_velocity} {std::cout<<"constructor"<<std::endl;};
+        ~PID(){std::cout<<"Destructor called"<<std::endl;};
     private:
         double kp , ki , kd;
     
     
 };
-} 
+} ;
 
 #endif  // INCLUDE_pid_hpp_
