@@ -17,7 +17,7 @@
 
 int main() {
     // Constructor Initializing vale Kp, Ki, Kd.
-    ttd::PID pid(0.2, 0.2, 0.2, 15, 5);
+    ttd::PID pid(0.25, 0.1, 0.03, 15, 5);
     // Main compute function
     std::cout << "Computed velocity is " << pid.Compute() << std::endl;
     return 0;
