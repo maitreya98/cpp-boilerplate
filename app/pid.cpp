@@ -1,4 +1,4 @@
-//! "Copyright [2019] Jagadesh,ToyasDhake,ShivamAkhauri,ChinmayJoshi"
+//! "Copyright [2019] Markose Jacob, Maitreya Kulkarni
 /**
 * @file pid.cpp
 * @author Maitreya Kulkarni (Driver), Markose Jacob (Navigator)
@@ -18,7 +18,29 @@
 */
 double ttd::PID::Compute() {
     double num;
-    num = 1;
+    // num = 1;
+    num = actual_velocity_;
+    double time_step = 0.1;
+    double integral = 0, previous_error = 0;
+    for (int i = 0; i < 1000; i++) {
+      double p_term, i_term, d_term, error = 0;
+      error = target_velocity_ - num;
+
+      // Proportional term
+      p_term = kp_ * error;
+
+      // Intergral term
+      integral = integral + (error * time_step);
+      i_term = ki_ *  integral;
+
+      // derivative term
+      d_term = kd_ * ((error - previous_error)/time_step);
+
+      // New velocity
+      num = p_term + i_term + d_term;
+
+      previous_error = error;
+    }
     return num;
 }
 
