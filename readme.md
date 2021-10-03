@@ -17,6 +17,12 @@ Part 2
 - Driver: Abhishek Nalawade
 - Navigator: Jon Kreinbrink
 
+## To-Do
+- Update the activity diagram
+
+## Notes
+- Getting warnings from constructor about wrong intialization order.
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate
