@@ -9,26 +9,16 @@
 
 // Header files
 #include <iostream>
-// #include "pid.cpp"
 #include "../include/pid.hpp"
 
 /**
 * @brief Main compute function for PID Controller
-*/ 
+*/
 
-int main()
-{   
+int main() {
     // Constructor Initializing vale Kp, Ki, Kd.
-    ttd::PID pid(0.2, 0.2, 0.2, 15, 5);
-
-
-    // double tv,av;    
-    // std::cout<<"Enter target velocity :"<<std::endl;
-    // std::cin>>pid.target_velocity;
-    // std::cout<<"Enter actual velocity :"<<std::endl;
-    // std::cin>>pid.actual_velocity;
-
-    // Main compute function 
-    std::cout<<"Computed velocity is "<<pid.compute(pid.actual_velocity,pid.target_velocity)<<std::endl;
+    ttd::PID pid(0.25, 0.1, 0.03, 15, 5);
+    // Main compute function
+    std::cout << "Computed velocity is " << pid.Compute() << std::endl;
     return 0;
 }

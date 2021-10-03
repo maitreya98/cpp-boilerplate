@@ -1,0 +1,20 @@
+1) main.cpp
+
+Checking app/main.cpp ...
+1/2 files checked 83% done
+Checking test/main.cpp ...
+2/2 files checked 100% done
+
+2)pid.cpp
+
+
+[app/pid.cpp:19]: (style) The function 'Compute' is never used.
+[app/pid.cpp:29]: (style) The function 'get_kd' is never used.
+[app/pid.cpp:36]: (style) The function 'get_ki' is never used.
+[app/pid.cpp:45]: (style) The function 'get_kp' is never used.
+
+
+3)pid.hpp
+
+Checking include/pid.hpp ...
+
