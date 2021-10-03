@@ -1,6 +1,6 @@
 # C++ Boilerplate
-[![Build Status](https://app.travis-ci.com/maitreya98/cpp-boilerplate.svg?branch=master)](https://app.travis-ci.com/maitreya98/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/maitreya98/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/maitreya98/cpp-boilerplate?branch=master)
+[![Build Status](https://app.travis-ci.com/Abhishek-Nalawade/cpp-boilerplate.svg?branch=master)](https://app.travis-ci.com/Abhishek-Nalawade/cpp-boilerplate)
+[![Coverage Status](https://coveralls.io/repos/github/Abhishek-Nalawade/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/Abhishek-Nalawade/cpp-boilerplate?branch=master)
 
 ## Overview
 
@@ -12,6 +12,16 @@ Simple starter C++ project with:
 ## Authors
 - Maitreya Kulkarni : Driver Github: maitreya98
 - Markose Jacob : Navigator Github: markosej11 
+
+Part 2
+- Driver: Abhishek Nalawade
+- Navigator: Jon Kreinbrink
+
+## To-Do
+- Update the activity diagram
+
+## Notes
+- Getting warnings from constructor about wrong intialization order.
 
 ## Standard install via command-line
 ```
