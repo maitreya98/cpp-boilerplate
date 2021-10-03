@@ -13,6 +13,10 @@ Simple starter C++ project with:
 - Maitreya Kulkarni : Driver Github: maitreya98
 - Markose Jacob : Navigator Github: markosej11 
 
+Part 2
+- Driver: Abhishek Nalawade
+- Navigator: Jon Kreinbrink
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate
