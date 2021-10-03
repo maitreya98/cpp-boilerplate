@@ -1,0 +1,19 @@
+1) cpplint app/main.cpp
+Done processing app/main.cpp
+
+2) cpplint include/pid.hpp
+Done processing include/pid.hpp
+
+3)  cpplint test/pid_test.cpp
+test/pid_test.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+Done processing test/pid_test.cpp
+Total errors found: 1
+
+
+4) cpplint test/main.cpp
+test/main.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+Done processing test/main.cpp
+Total errors found: 1
+
+
+
