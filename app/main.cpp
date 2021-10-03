@@ -1,6 +1,6 @@
 /**
 * @file main.cpp
-* @author Markose Jacob, Maitreya Kulkarni
+* @author "Maitreya Kulkarni , Markose Jacob"
 * @date 26 Spetember 2019
 * @copyright [2021] <Maitreya Kulkarni , Markose Jacob>
 * @brief This is a the main class for the PID implementation project
